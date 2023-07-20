@@ -1,0 +1,164 @@
+{
+  "main": {
+    "name": "Marco Lucchini",
+    "occupation": "Mathematical Engineering Student at Politecnico di Milano",
+    "description": "Welcome to my personal website!",
+    "image": "profilepic.png",
+    "bio2": "Hi! I am a fourth year Computer Science student studying at McGill University. I started programming at the age of 16 but never really saw its true potential until the age of 19. After a year of university in Finance, I saw technology as a tool that can positively impact our society which motivated me to change majors and go into Computer Science.",
+    "bio": "Hi! I am a fourth year Computer Science student studying at McGill University. I recently finished a summer internship at Intact Financial Corporation where I worked as a software engineering intern supporting the development of artificial intelligence tools. I believe software and technology can be used to do positive contributions towards our society and environment. This motivates me to continuously learn new things!",
+    "hobbies": "When I am not programming, you can find me playing volleybal or hiking!",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "",
+    "phone": "",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Milan",
+      "state": "Italy",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "https://marcolucchini.github.io",
+    "resumedownload": "MarcoLucchiniResumeMaster.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/marco-lucchini-294801218/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/marcolucchini",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Politecnico di Milano",
+        "degree": "Master of Science",
+        "major": "Mathematical Engineering",
+        "graduated": "September 2021 - December 2023",
+        "relevantCoursework": "Online Learning Application, Natural Language Processing, Machine Learning, Data Mining, Fintech, Optimization, Object Oriented Programming, Bayesian Statistics, Markov Chains, Monte Carlo Methods, Game Theory, Real and Functional Analysis.",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc.",
+        "logo": "politecnicologo.png"
+      },
+      {
+        "school": "Universitat Politècnica de Catalunya",
+        "degree": "Erasmus Exchange",
+        "major": "Faculta de Matemàtiques i Estadística",
+        "graduated": "September 2022 - January 2023",
+        "relevantCoursework": "Continuous Optimization, Optimization in Data Science, Lifetime Data Analysis, Data Mining, Bayesian Statistics",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc.",
+        "logo": "upclogo.png"
+      },
+      {
+        "school": "Politecnico di Milano",
+        "degree": "Bachelor of Science",
+        "major": "Mathematical Engineering",
+        "graduated": "September 2018 - July 2021",
+        "relevantCoursework": "Calculus, Physics, Numerical Analysis, Probability, Statistics, Operations Research, Mechanics, PDEs.",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc.",
+        "logo": "politecnicologo.png"
+      }
+    ],
+    "work": [
+      {
+        "company": "MathWorks",
+        "title": "MATLAB Student Ambassador",
+        "years": "September 2021 - December 2023",
+        "description": [
+          "Designed interactive lessons to help students get familiar with MATLAB and related packages",
+          "Manage a large community on social media, 1000+ members, increased by 25% in the first year.",
+          "Experience in publics peaking, 200+ people at events"
+        ],
+        "logo": "mathworkslogo.png"
+      }
+    ],
+    "skills": [
+      {
+        "name": "MATLAB",
+        "level": "90%"
+      },
+      {
+        "name": "Python",
+        "level": "85%"
+      },
+      {
+        "name": "R",
+        "level": "75%"
+      },
+      {
+        "name": "C/C++",
+        "level": "60%"
+      },
+      {
+        "name": "SQL",
+        "level": "50%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Heart Failure and re - hospitalizations",
+        "category": "Applied statistics project",
+        "image": "heartfailure.png",
+        "url": "https://github.com/marcolucchini/Heart-Failure-re-hospitalizations",
+        "description": [
+          "Applied Generalized Linear Models with mixed effects resulting in AUC over 0.75.", 
+          "Worked with over 10 million records collected from 200k patients.", 
+          "Performed functional Principal Component Analysis to exploit trend in the number of patients hospitalizations."        ],
+        "stack": ["R", "Python", "Streamlit", "Poisson Regression", "Functional Analysis", "Mixed Models"]
+      },
+      {
+        "title": "Estimating Client’s Needs",
+        "category": "Fintech project",
+        "image": "fintechproject.png",
+        "url": "https://github.com/marcolucchini/Fintech-Project",
+        "description": [
+          "Collaborated with a team of 4 to develop a machine learning model that estimates a client’s needs based on their financial profile.",
+          "Analysed and preprocessed data with MATLAB. Prototyped models using Classification Learner.",
+          "Deployed machine learning models with Python using Scikit-learn.",
+          "Designed a web application using Streamlit to allow users to interact with the model."
+        ],
+        "stack": ["MATLAB", "Python", "Fintech", "Streamlit", "Scikit-learn"]
+      },
+      {
+        "title": "Bayesian study about gender bias in Mathematics in the region of Catalonia",
+        "category": "Bayesian methods project at UPC",
+        "image": "bayesian.png",
+        "url": "https://github.com/marcolucchini/Bayesian-Study-of-Gender-Bias-In-Mathematics",
+        "description": [
+          "Analyzed gender bias obtaining clear evidence of a difference in results using Bayesian approach.",
+          "Simulated the models in R through the JAGS package.",
+          "Collaborated with students of different languages and worked with them in Spanish."
+        ],
+        "stack": ["R", "JAGS", "Bayesian Statistics"]
+      },
+      {
+        "title": "Escape room",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "escaperoom.png",
+        "description": [
+          "Designed a temporary escape room for a five-day event. More than 100 groups participated.",
+          "Built interactive puzzle using Arduino and wireless module.",
+          "LCoordinate a group of 4 people running the room during the event."
+        ],
+        "stack": ["Arduino", "Logic", "Managing", "Teamwork"]
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}

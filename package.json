@@ -2,13 +2,13 @@
   "name": "personalportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://deepok101.github.io",
+  "homepage": "https://marcolucchini.github.io",
   "dependencies": {
-    "jquery": "^3.2.1",
+    "jquery": "^3.7.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-ga": "^2.3.5",
-    "react-scripts": "2.1.8",
+    "react-ga": "^2.7.0",
+    "react-scripts": "^2.1.3",
     "react-typist": "^2.0.5",
     "typewriter-effect": "^2.18.0"
   },
